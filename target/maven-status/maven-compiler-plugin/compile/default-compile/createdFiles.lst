@@ -1,0 +1,4 @@
+sportstats\servlet\AddSport.class
+sportstats\servlet\GetAllLeaguesBySportId.class
+sportstats\servlet\GetAllSeasonsByLeagueId.class
+sportstats\servlet\GetAllSports.class

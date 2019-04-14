@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+    
+        <button onclick="location.href = 'http://localhost:8085/SportStatsServlet/GetAllSports';" id="getAllSportsButton" class="float-left submit-button">Get All Sports</button>
+        <button onclick="location.href = 'http://localhost:8085/SportStatsServlet/GetAllLeaguesBySportId?id=17';" id="getAllLeaguesBySportId" class="float-left submit-button">Get All Leagues By Sport Id</button>
+        <button onclick="location.href = 'http://localhost:8085/SportStatsServlet/GetAllSeasonsByLeagueId?id=11';" id="getAllSeasonsByLeagueId" class="float-left submit-button">Get All Seasons By League Id</button>
+        <button onclick="location.href = 'http://localhost:8085/SportStatsServlet/AddSport?sportName=testSportName';" id="addSport" class="float-left submit-button">Add sport with testSportName</button>
+        
+    </body>
+</html>
